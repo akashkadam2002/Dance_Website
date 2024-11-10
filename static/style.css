@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#logo{
+  display: flex;
+  color: black;
+  align-items: center;
+  margin: 3px 14px;
+  padding-left: 4px;
+  padding-right: 20px;
+}
+
+#logo img{
+  height: 50px;
+  padding-right: 10px;
+}
+
+#navbar{
+    background-color: rgb(214, 88, 88);
+    color: white;
+    padding: 20px 14px;
+    font-size: 1.5rem;
+}
+
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#navbar li{
+  list-style: none;
+}
+
+#navbar li a{
+  color: black;
+  text-decoration: none;
+  padding: 13px 30px;
+  font-weight: bold;
+}
+
+#navbar li a:hover{
+  color: white;
+}
+
+#introSection{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background:center /cover no-repeat url("https://images.unsplash.com/photo-1474308371634-c715850e8d8b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fHww");
+   color: white;
+   font-size: 35px;
+   font-weight: bolder;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   height: 500px;
+   width: 100%;
+   background-color: orange;
+   padding-bottom: 130px;
+}
+
+#introSection div.quote{
+  font-size: 20px;
+  padding: 7px;
+}
+
+#missionSection{
+  height: 350px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(166, 216, 247);
+  /* background-color: #e6d3a4; */
+}
+
+#missionSection h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 18px;
+}
+.card{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  margin: 25px 20px;
+  height: 230px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card h3{
+  text-align: center;
+  margin: 12px;
+  height:210px;
+  width: 30%;
+  font-size: 20px;
+}
+
+ #perfection{
+    background:center /cover no-repeat url("https://img.freepik.com/premium-photo/it-requires-training-attain-perfection-this-dance-form-shot-group-ballet-dancers-practicing-routine-dance-studio_590464-61431.jpg?w=2000");
+    width: 30%;
+    height: 210px; 
+}
+
+#choice{
+  background:center /cover no-repeat url("https://ichef.bbci.co.uk/images/ic/704xn/p0b5vk97.jpg");
+  width: 30%;
+  height: 210px; 
+}
+
+ #experts{
+  background:center /cover no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_SgqHOp7_fYY1gI5KLkSlxXe_w0up3GFPw&usqp=CAU");
+  width: 30%;
+  height: 210px; 
+}
+
+#sponserSection{
+   height: 300px;
+   background-color: rgb(232, 187, 187)
+}
+
+#sponserSection h3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 18px;
+}
+
+#sponser{
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+  margin: 23px;
+}
+
+.spImage{
+  height: 80%;
+  margin: 20px;
+}
+
+#footer{
+ display: flex;
+ color: white;
+ background-color: black;
+ height: 60px;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

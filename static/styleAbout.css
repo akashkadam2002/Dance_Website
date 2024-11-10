@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ #logo{
+   display: flex;
+   color: black;
+   align-items: center;
+   margin: 3px 14px;
+   padding-left: 4px;
+   padding-right: 20px;
+ }
+ 
+ #logo img{
+   height: 50px;
+   padding-right: 10px;
+ }
+ 
+ #navbar{
+     background-color: rgb(214, 88, 88);
+     color: white;
+     padding: 20px 14px;
+     font-size: 1.5rem;
+ }
+ 
+ #navbar ul{
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+ }
+ 
+ #navbar li{
+   list-style: none;
+ }
+ 
+ #navbar li a{
+   color: black;
+   text-decoration: none;
+   padding: 13px 30px;
+   font-weight: bold;
+ }
+ 
+ #navbar li a:hover{
+   color: white;
+ }
+
+#missionSection{
+    height: 480px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(166, 216, 247);
+    /* background-color: #e6d3a4; */
+  }
+  
+  #missionSection h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 50px 20px;
+    height: 230px;
+  }
+  
+  .card:hover{
+    cursor: pointer;
+  }
+  
+  .card h3{
+    text-align: center;
+    margin: 12px;
+    height:210px;
+    width: 30%;
+    font-size: 20px;
+  }
+  
+   #perfection{
+      background:center /cover no-repeat url("https://img.freepik.com/premium-photo/it-requires-training-attain-perfection-this-dance-form-shot-group-ballet-dancers-practicing-routine-dance-studio_590464-61431.jpg?w=2000");
+      width: 30%;
+      height: 210px; 
+  }
+  
+  #choice{
+    background:center /cover no-repeat url("https://ichef.bbci.co.uk/images/ic/704xn/p0b5vk97.jpg");
+    width: 30%;
+    height: 210px; 
+  }
+  
+   #experts{
+    background:center /cover no-repeat url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK_SgqHOp7_fYY1gI5KLkSlxXe_w0up3GFPw&usqp=CAU");
+    width: 30%;
+    height: 210px; 
+  }
+
+#footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }   

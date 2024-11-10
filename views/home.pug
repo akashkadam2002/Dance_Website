@@ -1,0 +1,30 @@
+extends base.pug
+
+block script
+   script(src="/static/index.js")
+
+block style 
+   style 
+     include ../static/style.css 
+
+block content     
+    section#introSection 
+      div Welcome to our Dance Academy 
+      div.quote Move it, shake it, dance like nobody's watching.    
+
+    section#missionSection 
+      h2 Our Mission
+      div.card#perfection
+        h3 Dance Perfection 
+      div.card#choice  
+        h3 Dance the way you like 
+      div.card#experts 
+        h3 Experts Teaching 
+
+    section#sponserSection 
+      h3 Our Sponsers are
+      div#sponser 
+         img(src="https://www.freepnglogos.com/uploads/microsoft-logo-image-23.png", alt="Sponser Image" , class = "spImage")
+         img(src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PhonePe_Logo.svg/1280px-PhonePe_Logo.svg.png", alt="Sponser Image" , class = "spImage")
+         img(src="https://1000logos.net/wp-content/uploads/2017/06/Skype-Logo-2006.jpg", alt="Sponser Image" , class = "spImage")
+         img(src="https://upload.wikimedia.org/wikipedia/commons/6/6f/HP_logo_630x630.png", alt="Sponser Image" , class = "spImage")
